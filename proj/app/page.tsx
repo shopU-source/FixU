@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import {
   Wrench,
   Zap,
@@ -28,18 +29,18 @@ export default function HomePage() {
             Quality service providers for all your home and business needs across India. One platform, endless solutions.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a
+            <Link
               href="/services"
               className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-8 rounded transition-colors text-lg"
             >
               Explore Services
-            </a>
-            <a
+            </Link>
+            <Link
               href="/book"
               className="bg-transparent hover:bg-gray-800 text-white border border-white font-medium py-3 px-8 rounded transition-colors text-lg"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
       </section>
