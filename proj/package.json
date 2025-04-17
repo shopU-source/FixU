@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "bcryptjs": "^3.0.2",
+    "jose": "^6.0.10",
+    "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.488.0",
+    "mongoose": "^8.13.2",
     "next": "15.3.0",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
