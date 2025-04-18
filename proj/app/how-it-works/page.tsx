@@ -1,6 +1,4 @@
 "use client"
-
-
 import React, { useEffect, useState } from 'react';
 import Howweworks from "../components/hww"
 const FixUHowItWorks: React.FC = () => {
